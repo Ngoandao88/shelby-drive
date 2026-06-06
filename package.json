@@ -1,0 +1,24 @@
+{
+  "name": "shelby-drive",
+  "version": "0.1.0",
+  "description": "Decentralized file storage app built on Shelby Protocol",
+  "scripts": {
+    "dev": "ts-node src/upload.ts",
+    "build": "tsc"
+  },
+  "keywords": ["shelby", "decentralized-storage", "aptos", "web3"],
+  "author": "Ngoandao88",
+  "license": "MIT",
+  "dependencies": {
+    "@shelby/sdk": "latest",
+    "@aptos-labs/ts-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
